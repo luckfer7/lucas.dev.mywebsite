@@ -1,0 +1,66 @@
+.secao__apresentacao {
+    width: 90vw;
+    height: 70vh;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.secao__apresentacao__texto {
+    width: 40vw;
+    border: 1px solid white;
+}
+
+.secao__apresentacao__titulo {
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: oblique;
+}
+
+.secao__apresentacao__funcao {
+    margin-top: 0.6em;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.secao__apresentacao__descricao{
+    margin-top: 0.6em;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.secao__apresentacao__container--img {
+    border: 1px solid white;
+    text-align: center;
+}
+.minha__imagem {
+    border-radius: 50%;
+    width: 20vw;
+    height: 40vh;
+    margin-top: 2em;
+}
+
+.visiteme {
+    margin-top: 3em;
+    font-weight: 500;
+    font-size: 21px;
+    font-style: oblique;
+}
+.social__media {
+    border: 1px solid white;
+    /* width: 15vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social__media__icon {
+    width: 4vw;
+    height: 4vh;
+}

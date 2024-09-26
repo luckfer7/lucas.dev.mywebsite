@@ -1,0 +1,15 @@
+.links {
+    padding: 0.4em 0.9em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-weight: 700;
+    font-size: 19px;
+    
+}
+
+.links:hover {
+    background-color: var(--cor-one);
+    color: var(--cor-de-fundo);
+    box-shadow:  0 0 0.2em 0.2em var(--cor-one);
+}

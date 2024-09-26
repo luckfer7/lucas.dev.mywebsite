@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+    /* border-bottom: 1px solid var(--cor-do-texto); */
+}
+
+.navegacao{
+    text-decoration: none;
+    
+    color: var(--cor-do-texto);
+    font-weight: 700;
+    font-size: 19px;
+    
+}
+
+.home {
+    /* border: 1px solid var(--cor-do-texto); */
+    padding: 0.4em 0.9em;
+    border-radius: 10px;
+}
+
+/* .sobre__mim:hover {
+    background-color: var(--cor-one);
+    color: var(--cor-de-fundo);
+    box-shadow:  0 0 0.2em 0.2em var(--cor-one);
+}
+
+.home:hover {
+    background-color: var(--cor-one);
+    color: var(--cor-de-fundo);
+    box-shadow:  0 0 0.2em 0.2em var(--cor-one);
+}
+
+.meus__projetos:hover {
+    background-color: var(--cor-one);
+    color: var(--cor-de-fundo);
+    box-shadow:  0 0 0.2em 0.2em var(--cor-one);
+}
+
+.skills:hover {
+    background-color: var(--cor-one);
+    color: var(--cor-de-fundo);
+    box-shadow:  0 0 0.2em 0.2em var(--cor-one);
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 8em;
+    list-style-type: none;
+} */
