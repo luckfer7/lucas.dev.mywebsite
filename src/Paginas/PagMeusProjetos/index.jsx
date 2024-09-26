@@ -122,7 +122,7 @@ function MeusProjetos () {
                 <div className='projetos'>
                     <img src={ProfileCard} alt="" />
                     <h4>Profile Card</h4>
-                    <button>Ver mais</button>
+                    <button>Ver maiskkkkk</button>
 
                 </div>
 
