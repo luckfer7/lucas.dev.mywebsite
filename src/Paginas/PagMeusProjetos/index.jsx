@@ -1,6 +1,5 @@
 
 import './index.css';
-
 import cinetag from './imgs-portifolio/imgs-portifolio/img-cinetag.png';
 import OlaMundo from './imgs-portifolio/imgs-portifolio/img-ola-mundo.png';
 import Organo from './imgs-portifolio/imgs-portifolio/img-organo.png';
@@ -16,117 +15,175 @@ import NumeroSecreto from './imgs-portifolio/imgs-portifolio/JSGame_img.png';
 import OutroAluraPlay from './imgs-portifolio/imgs-portifolio/alura_play_img.png';
 import WebPage from './imgs-portifolio/imgs-portifolio/webpage_img.png';
 import ProfileCard from './imgs-portifolio/imgs-portifolio/profileCard_img.png';
-
+import ModalZoom from '../../componentes/ModalZoom';
+import { useState } from 'react';
 
 function MeusProjetos () {
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalImage, setModalImage] = useState('');
+
+    function openModal (image) {
+        setModalImage(image);
+        setModalOpen(true);
+        console.log("Imagem setada:", image);
+    }
+
+    function closeModal () {
+        setModalOpen(false);
+    }
+
     return (
         <>
             <div className="container__projetos">
                 <div className='projetos'>
                     <img src={cinetag} alt="" />
                     <h4>Cinetag</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(cinetag)} >Ver mais</button>
+                        <a className='ancoras' href="">Ver no Github</a>
+                        <a className='ancoras' href="">Ver deploy</a>
+                    </div>
                 </div>
 
                 <div className='projetos'>
                     <img src={OlaMundo} alt="" />
                     <h4>Olá, mundo!</h4>
-                    <button>Ver mais</button>
-
+                    <div className='ContainerBtns'>
+                         <button onClick={() => openModal(OlaMundo)} >Ver mais</button>
+                    </div>
                 </div>
 
                 <div className='projetos'>
                     <img src={Organo} alt="" />
                     <h4>Organo</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(Organo)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={AluraGeek} alt="" />
                     <h4>Alura Geek</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(AluraGeek)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={CadastroAluraBooks} alt="" />
                     <h4>Tela de Cadastro no Alura books</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(CadastroAluraBooks)} >Ver mais</button>
+                    </div>
 
                 </div>
 
                 <div className='projetos'>
                     <img src={AluraMidi} alt="" />
                     <h4>Alura Midi</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(AluraMidi)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={AluraPlay} alt="" />
                     <h4>Alura Play</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(AluraPlay)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={Monibank} alt="" />
                     <h4>Monibank</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(Monibank)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={AluraBooks} alt="" />
                     <h4>Alura Books</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(AluraBooks)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={ProjetoFokus} alt="" />
                     <h4>Projeto Fokus</h4>
-                    <button>Ver mais</button>
-
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(ProjetoFokus)} >Ver mais</button>
+                    </div>
                 </div>
 
                 <div className='projetos'>
                     <img src={Decodificador} alt="" />
                     <h4>Decodificador</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(Decodificador)}>Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={NumeroSecreto} alt="" />
                     <h4>Número Secreto</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button  onClick={() => openModal(NumeroSecreto)}>Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={OutroAluraPlay} alt="" />
                     <h4>Alura Play</h4>
-                    <button>Ver mais</button>
-
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(OutroAluraPlay)} >Ver mais</button>
+                    </div>
+                    
                 </div>
 
                 <div className='projetos'>
                     <img src={WebPage} alt="" />
                     <h4>Web Page</h4>
-                    <button>Ver mais</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(WebPage)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
                 <div className='projetos'>
                     <img src={ProfileCard} alt="" />
                     <h4>Profile Card</h4>
-                    <button>Ver maiskkkkk</button>
+                    <div className='ContainerBtns'>
+                        <button onClick={() => openModal(ProfileCard)} >Ver mais</button>
+                    </div>
+                    
 
                 </div>
 
             </div>
+            
+            {modalOpen && <ModalZoom image={modalImage} closeModal={closeModal} />}
+
         </>
     )
 }
