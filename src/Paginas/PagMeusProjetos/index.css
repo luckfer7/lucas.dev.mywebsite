@@ -58,3 +58,14 @@ button {
     padding: 0.5em 0.5em 0.8em 0.5em;
     color: var(--cor-two);
 }
+
+@media screen and (max-width: 390px) {
+    .container__projetos {
+        flex-direction: column;
+    }
+
+    .projetos {
+        width: 100%;
+        margin-top: 2em;
+    }
+}
