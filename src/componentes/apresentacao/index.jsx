@@ -6,9 +6,9 @@ function Apresentacao () {
     return (
         <section className="secao__apresentacao">
             <div className='secao__apresentacao__texto'>
-                <h1 className='secao__apresentacao__titulo'>Olá, meu nome é Lucas Camilo</h1>
-                <h3 className='secao__apresentacao__funcao'> Desenvolvedor fullstack</h3>
-                <p className='secao__apresentacao__descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem sint ut quas. Minima laborum qui unde delectus accusamus repellat praesentium molestiae ipsum rerum provident veritatis eaque, asperiores autem officiis!s accusamus repellat praesentium molestiae ipsum rerum provident veritatis eaque, asperiores autem officiis!</p>
+                <h1 className='secao__apresentacao__titulo typing-animation'>Olá, meu nome é Lucas Camilo</h1>
+                <h3 className='secao__apresentacao__funcao typing-animation'> Desenvolvedor fullstack</h3>
+                <p className='secao__apresentacao__descricao '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem sint ut quas. Minima laborum qui unde delectus accusamus repellat praesentium molestiae ipsum rerum provident veritatis eaque, asperiores autem officiis!s accusamus repellat praesentium molestiae ipsum rerum provident veritatis eaque, asperiores autem officiis!</p>
 
 
                 
