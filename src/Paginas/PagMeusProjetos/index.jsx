@@ -204,8 +204,6 @@ function MeusProjetos () {
                         <a className='ancoras' href="">Ver no Github</a>
                         <a className='ancoras' href="">Ver deploy</a>
                     </div>
-                    
-
                 </div>
 
             </div>
