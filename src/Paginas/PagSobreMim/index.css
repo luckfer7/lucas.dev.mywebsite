@@ -1,5 +1,35 @@
 .container__sobremim {
     text-align: center;
     margin: 1em;
-    padding: 2em 6em;
+    padding: 2em 11em;
+}
+
+.container__sobremim h2 {
+    margin-bottom: 1em;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .container__sobremim {
+        padding: 1em 4em;
+    }
+    
+}
+
+@media screen and (min-width: 391px) and (max-width: 599px) {
+    .container__sobremim {
+        padding: 1em 2em;
+    }
+}
+ 
+@media screen and (max-width: 390px) {
+    .container__sobremim {
+        text-align: left;
+        padding: 1em 0;
+        font-size: 12px;
+    }
+
+    .container__sobremim h2 {
+        margin-bottom: 0.5em;
+    }
 }

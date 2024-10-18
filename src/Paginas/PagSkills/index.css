@@ -6,23 +6,34 @@
 .tech__container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 2em;
-    border: 3px solid white;
-    width: 60%;
+    width: 98%;
     gap: 50px;
     
     
 }
 
 .icons__img {
-    height: 15%;
-    width: 15%;
+    height: 10%;
+    width: 10%;
 }
 
 .icons__img-net {
-    height: 15%;
-    width: 15%;
+    height: 10%;
+    width: 10%;
+}
+
+@media screen and (max-width: 390px) {
+
+    .skill_titulo {
+        font-size: 20px;
+        margin: 1.5em 0.5em;
+    }
+    .tech__container {
+        gap: 27px;   
+    }
+    
 }

@@ -1,8 +1,6 @@
 .container__projetos {
     width: 83%;
     height: 80%;
-    /* border:3px solid white; */
-    /* box-shadow: 0 0 5px 5px var(--cor-two); */
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -12,7 +10,6 @@
 .projetos {
     width: 26vw;
     height: 60vh;
-    /* border:3px solid white; */
     margin: 2em;
     border-radius: 10px;
     text-align: center;
@@ -39,7 +36,6 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    /* box-sizing: border-box; */
 }
 
 button {
@@ -67,7 +63,6 @@ button:hover {
 .ancoras {
     width: 50%;
     text-decoration: none;
-    /* border: 1px solid var(--cor-two); */
     box-shadow: 0 0 2px 2px var(--cor-two);
     padding: 0.5em 0.5em 0.8em 0.5em;
     color: var(--cor-two);
