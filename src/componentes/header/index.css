@@ -31,11 +31,12 @@
         display: flex;
         padding: 1em 2em;
         border-bottom: 1px solid var(--cor-do-texto);
+        overflow: hidden;
     }
     .navegacao {
         position: absolute;
         top: 53px;
-        right: 0px;
+        right: 100%;
         background-color: var(--cor-de-fundo);
         height: 230px;
         display: flex;
@@ -43,20 +44,23 @@
         justify-content: flex-start;
         align-items:flex-start;
         padding-top: 2rem;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
+        width: 250px;
+        transition: left 0.3s ease-in-out;
         border-radius: 10px 0 0 10px;
-
     }
     
     .navegacao.open {
-        transform: translateX(0);
+        right: 0;
     }
 
     .menu-icon {
        display: flex;
        align-items: center;
        font-size: 1.2em;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 }              
 
