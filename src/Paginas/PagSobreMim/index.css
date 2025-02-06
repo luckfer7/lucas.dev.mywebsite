@@ -9,20 +9,20 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 1220) and (max-width: 1440px) {
     .container__sobremim {
         padding: 1em 4em;
     }
     
 }
 
-@media screen and (min-width: 391px) and (max-width: 599px) {
+@media screen and (min-width: 769px) and (max-width: 1220px) {
     .container__sobremim {
         padding: 1em 2em;
     }
 }
  
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
     .container__sobremim {
         text-align: left;
         padding: 1em 0;

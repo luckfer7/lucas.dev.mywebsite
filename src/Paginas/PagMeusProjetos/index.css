@@ -74,7 +74,7 @@ button:hover {
     box-shadow:  0 0 0.2em 0.2em var(--cor-one);
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
     .container__projetos {
         flex-direction: column;
         
@@ -93,4 +93,14 @@ button:hover {
         
     }
 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+
+    .projetos {
+        width: 45%; /* Mantém 2 projetos por linha */
+        margin: 1em; /* Ajusta as margens */
+        height: 50vh; /* Ajusta a altura para telas menores */
+    }
 }

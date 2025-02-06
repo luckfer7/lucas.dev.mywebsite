@@ -90,7 +90,7 @@
     height: 4vh;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
     .secao__apresentacao {
         flex-direction: column;
     }
